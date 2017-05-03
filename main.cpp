@@ -8,17 +8,10 @@
  *
  *  Description:
  *  Dijkstra's algorithm was used to solve the single source shortest path
- *  problem for a graph with non-negative edge weights. A heap data structure
- *  was used to store unexplored vertices. The key for each unexplored vertex
- *  in the heap was determined by using Dijkstra's Algorithm.
+ *  problem for a graph.
  *
- *  Input File:
- *  The input file contains an adjacency list representation of an undirected
- *  weighted graph with vertices and edge weights.
- *  Output File:
- *  Contains each vertex ID and the corresponding shortest path distance from
- *  the source vertex
  */
+
 
 
 #include <iostream>
@@ -30,7 +23,7 @@
 #include <iomanip>
 #include <sstream>
 
-#define MAX 1073741824
+#define MAX 1073741824         // can be INF 
 using namespace std;
 
 // Method to find the minimum distance among all those elements which are not visited
